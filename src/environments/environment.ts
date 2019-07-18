@@ -3,16 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  firebaseConfig : {
-    apiKey: 'AIzaSyB8AZn9XthffGxYGld699O33UJjejKPhy4',
-    authDomain: 'periferia-crud.firebaseapp.com',
-    databaseURL: 'https://periferia-crud.firebaseio.com',
-    projectId: 'periferia-crud',
-    storageBucket: 'periferia-crud.appspot.com',
-    messagingSenderId: '675267417546',
-    appId: '1:675267417546:web:e4128fc01d7b7755'
-  }
+  production: false
 };
 
 
