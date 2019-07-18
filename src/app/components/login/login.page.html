@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title text-center> Iniciar Sesión </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-card-content>
+      <br>
+
+      <div padding>
+        <img src="assets/Periferia-hero-medium-logo.png" alt="" />
+      </div>
+
+      <br>
+      <br>
+      
+      <ion-item class="mt-5">
+        <ion-label position="floating">Correo Electrónico</ion-label>
+        <ion-input type="text" placeholder="Ingrese su email" [(ngModel)]="email" name="email"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input type="password" placeholder="Ingrese su contraseña" [(ngModel)]="password" name="pass"></ion-input>
+      </ion-item>
+      
+
+      <br>
+
+      <div>
+        <ion-button (click)="onSubmitUserList()" color="success" shape="round" expand="full">Ingresar</ion-button>
+        <ion-button color="success" shape="round" expand="full" fill="outline">Registrarse</ion-button>
+      </div>
+    </ion-card-content>
+    <br>
+  </ion-card>
+  
+</ion-content>
