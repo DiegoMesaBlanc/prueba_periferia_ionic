@@ -22,7 +22,7 @@ de comandos **npm install** para descargar nuestras dependencias
 
 ### Ruta .apk ⌨️
 
-* [APK](https://github.com/DiegoMesaBlanc/prueba_accenture/blob/master/prueba_accenture.apk)
+* [APK](https://github.com/DiegoMesaBlanc/prueba_periferia_ionic/blob/master/prueba_periferia.apk)
 
 
 
